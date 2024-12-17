@@ -6,6 +6,8 @@ node_modules
 # Next.js
 .next/
 out/
+
+# Production
 build
 dist
 
@@ -25,9 +27,9 @@ yarn-error.log*
 .DS_Store
 *.pem
 
-# Docker
-docker-compose.override.yml
-
 # IDE
 .idea
-.vscode 
+.vscode
+
+# Docker
+docker-compose.override.yml
