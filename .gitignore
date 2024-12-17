@@ -8,11 +8,12 @@ node_modules
 !.yarn/releases
 !.yarn/versions
 
+# testing
+/coverage
+
 # Next.js
 .next/
 out/
-
-# Production
 build
 dist
 
@@ -33,9 +34,16 @@ yarn-error.log*
 .DS_Store
 *.pem
 
-# IDE
-.idea
-.vscode
-
 # Docker
 docker-compose.override.yml
+
+# IDE
+.idea
+.vscode 
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
