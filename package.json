@@ -28,10 +28,11 @@
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
     "date-fns": "^2.30.0",
-    "axios": "^1.6.2"
+    "axios": "^1.6.2",
+    "@types/multer": "^1.4.7",
+    "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
