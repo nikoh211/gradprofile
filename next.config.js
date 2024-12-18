@@ -8,22 +8,11 @@ const nextConfig = {
     ignoreDuringBuilds: true
   },
   env: {
-    NEXT_PUBLIC_API_URL: 'http://gradprofile.com/api',
+    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'https://api.gradprofile.com',
   },
   images: {
-    domains: ['gradprofile.com'],
-  },
-  async headers() {
-    return [
-      {
-        source: '/api/:path*',
-        headers: [
-          { key: 'Access-Control-Allow-Origin', value: 'https://gradprofile.com' },
-          { key: 'Access-Control-Allow-Methods', value: 'GET,POST,PUT,DELETE' },
-          { key: 'Access-Control-Allow-Headers', value: 'Content-Type' },
-        ],
-      },
-    ]
+    unoptimized: true,
+    domains: ['gradprofile.com']
   }
 }
 
