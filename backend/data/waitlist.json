@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Vrushabh Mangesh Gamare",
+    "email": "vrushabhcr7@gmail.com",
+    "university": "Carnegie Mellon University",
+    "id": "1734457054540",
+    "createdAt": "2024-12-17T17:37:34.540Z"
+  },
+  {
+    "name": "Vrushabh Mangesh Gamare",
+    "email": "vrushabhcr07@gmail.com",
+    "university": "Harvard University",
+    "id": "1734457450698",
+    "createdAt": "2024-12-17T17:44:10.698Z"
+  },
+  {
+    "name": "Vrushabh Mangesh Gamare",
+    "email": "vrushabhcr6@gmail.com",
+    "university": "Other",
+    "otherUniversity": "abc",
+    "id": "1734458272483",
+    "createdAt": "2024-12-17T17:57:52.483Z"
+  },
+  {
+    "name": "Vrushabh Mangesh Gamare",
+    "email": "vrushabhcra7@gmail.com",
+    "university": "Carnegie Mellon University",
+    "id": "1734458838538",
+    "createdAt": "2024-12-17T18:07:18.538Z"
+  }
+]

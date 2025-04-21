@@ -16,8 +16,21 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
+<<<<<<< HEAD
 # env files
 .env*
+=======
+# System files
+.DS_Store
+*.pem
+
+# Docker
+docker-compose.override.yml
+
+# IDE
+.idea
+.vscode 
+>>>>>>> 882c2009cb8b7643249a5a4704a30c4e0882bf27
 
 # vercel
 .vercel

@@ -73,6 +73,7 @@
   body {
     @apply bg-background text-foreground;
   }
+<<<<<<< HEAD
 }
 
 .scrollbar-hide {
@@ -84,3 +85,6 @@
   display: none;
 }
 
+=======
+} 
+>>>>>>> 882c2009cb8b7643249a5a4704a30c4e0882bf27
